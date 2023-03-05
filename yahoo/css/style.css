@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    padding:15px;
+}
+h2{
+    color:rgb(101, 36, 161);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:0px;
+}
+h3{
+    color:black;
+    font-size:20px
+}
+p{
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+input{
+    width: 300px;
+    height: 20px;
+    outline: none;
+    border-radius: none;
+    border: none;
+    border-bottom: 1px solid;
+    position: relative;
+
+
+}
+.blue{
+    border-radius:20px;
+    height: 40px;
+    width: 350px;
+    padding:5px;
+    background-color:rgb(132, 132, 253);
+    border-color:rgb(132, 132, 253);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+.bluetext{
+    color:rgb(132, 132, 253) ;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blueborder{
+    color:rgb(108, 108, 243);
+    background-color: white;
+    border-color:rgb(132, 132, 253);
+    border-radius: 20px;
+    height: 40px;
+    width: 350px;
+    padding:5px;
+    font-size: 15px;
+}
+.black{
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    padding:5px;
+    height: 40px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+h4{
+
+   color:gray;
+   text-align: center;
+   margin: 0px 0px -4px 0px;
+  /* position: relative;*/
+   transition: 0.5s;
+
+}
+input:focus ~ h4{
+    color: red;
+    padding: 10px;
+    transform: translateY(-20px);
+}
+form{
+    display: inline-flex;
+    gap: 40px;
+    align-items: center ;
+}
