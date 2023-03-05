@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:white;
+    text-align: center;
+}
+p{
+    color: rgb(177, 59, 108);
+   
+}
+form{
+    padding: 10px;
+    transition: 0.5s;
+}
+
+div{
+    border-radius: 10px;
+    transition: 00.5s;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+     float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:15px;
+    background-color: rgb(240, 240, 250);
+    color: rgb(41, 39, 39);
+}
+/* img{
+    align-items: center;
+    text-align: center;
+} */
+/* nav{
+    color:antiquewhite;
+    padding:5px;
+} */
