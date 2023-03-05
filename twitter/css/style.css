@@ -1,0 +1,196 @@
+body{
+    margin:0%;
+    padding:0%;
+background-color:black;
+color: white;
+border-radius: 10px;
+border:2px solid white;
+    
+}
+i{
+    margin-right: 15px;
+    color:white;
+}
+button.bluetweet{
+    margin-left: 30px;
+    background-color: rgb(26, 146, 194);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+
+}
+img{
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 40px;
+}
+#tweet{
+    color:rgb(36, 175, 230);
+    font-size: large;
+}
+.hm{
+    color: rgb(36, 175, 230);
+}
+#home{
+    color:rgb(36, 175, 230);
+}
+#disc{
+    color: rgb(141, 88, 141);
+    font-size: large;
+}
+#star{
+    color:rgb(26, 146, 194);
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left: 400px;
+}
+h5{
+    margin-left: 40px;
+    display: inline-flex;
+}
+hr{
+    height: 0.1px;
+    width: 600px;
+    color: rgb(189, 187, 187);
+}
+#dis{
+    color: rgb(141, 88, 141);
+    font-size: 50px;
+
+}
+.fa-image,
+.fa-gift,
+.fa-bars-progress,
+.fa-face-smile{
+    color:rgb(26, 146, 194);
+}
+.icons{
+    display: flex;
+    margin-left: 90px;
+}
+button{
+    background-color: rgb(26, 146, 194);
+    width:80px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.gray{
+    color: gray;
+    margin-left: -1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+ul.text{
+    margin-left: -15px;  
+}
+.fritext{
+    display: flex;
+    margin-left: -2px;
+    margin-top: 10px;
+}
+b{
+    color: rgb(26, 146, 194);
+}
+.fa-comment,
+.fa-arrow-down-up-across-line,
+.fa-heart,
+.fa-upload{
+    color:grey;
+    margin-left: 90px;
+    margin-right: 2px;
+}
+.gist{
+    display: flex;
+}
+.sis{
+    display: flex;
+    gap: 15px;
+    
+}
+#me{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.fav{
+    display: flex;
+    gap: 10px;
+}
+input{
+    background-color: black;
+    color:gray;
+    height: 25px;
+    width:300px;
+    border-radius: 15px;
+}
+.fa-magnifying-glass{
+    margin-left: -25px;
+    color:gray;
+}
+.fa-gear{
+    color:rgb(26, 146, 194);
+}
+.gear{
+    display:flex;
+    gap: 350px;
+}
+.moon{
+    height: 60px;
+    width:500px;
+    border-radius: 30px;
+    color: white;
+    margin: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+border-color: gray;
+margin-right: -50px;
+}
+.desypic{
+    height:50px;
+    border-radius:0%;
+}
+article{
+    border-radius: 5px;
+}
+h4{
+    color: rgb(26, 146, 194);
+}
+.box{
+    background-color: black;
+    color:gray;
+    height: 25px;
+    width:300px;
+    border-radius: 15px;
+    border-color: gray;
+    margin-left: 0px;
+
+}
+.whole{
+    display: flex;
+    justify-content:space-between;
+    margin:20px;
+    border-radius: 60px;
+} 
+.first{
+    
+    background-color: black; 
+    border-right: 1px solid white;
+}
+.middle{
+    background-color: black;
+    border-radius: 4px; 
+    border-right: 1px solid white; 
+}
+.last{
+    background-color:black;
+    border-radius: 3px;
+
+}
+
+
