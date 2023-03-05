@@ -1,0 +1,138 @@
+
+body{
+    padding:5px;
+    margin: auto;
+    height: 700px;
+    width: 400px;
+}
+.section{
+    background-color: rgb(51, 46, 46);
+    padding: 10%;
+}
+
+h1{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+input{
+    height: 20px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border-color:2px skyblue;
+    border-radius: 20px;
+    text-align:left;
+}
+div.searchbar{
+text-align: center;
+}
+#glass{
+    color:skyblue;
+    margin-left: -8%;
+}
+#bars{
+    color:skyblue;
+    display: flex;
+    justify-content:flex-start;
+}
+p{
+    font-size:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+
+button.yellow{
+    background-color: rgb(241, 241, 81);
+    height: 50px;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+    margin: 10px;
+    border-radius:50px;
+    border-color: rgb(241, 241, 81);
+}
+button.sky{
+    background-color:rgb(74, 180, 216);
+    height: 50px;
+    width:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+    margin:10px;
+    border-radius:50px;
+    border-color:rgb(74, 180, 216) ;
+}
+button.Ash{
+    background-color: rgb(167, 164, 164);
+    height: 50px;
+    width:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+    margin:10px;
+    border-radius:50px;
+    border-color:rgb(167, 164, 164) ;
+}
+button.violet{
+    background-color: blueviolet;
+    height: 50px;
+    width:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+    margin:10px;
+    border-radius:50px;
+    border-color:blueviolet;
+}
+
+button.pink{
+    background-color: palevioletred;
+    height: 50px;
+    width:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+    margin:10px;
+    border-radius:50px;
+    border-color:palevioletred;
+}
+button.green{
+    background-color: rgb(163, 247, 37);
+    height: 50px;
+    width:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+    margin:10px;
+    border-radius:50px;
+    border-color:rgb(163, 247, 37);
+}
+
+button.plus{
+    background-color: skyblue;
+    height:50px;
+    width:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+    margin:10px;
+    border-radius:50px;
+    border-color:skyblue;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-end;
+}
+div{
+gap:10px;
+    color:white;
+}
+
+hr{
+    border: 1px solid;
+    width: 300px;
+    color: rgb(146, 145, 145);
+}
