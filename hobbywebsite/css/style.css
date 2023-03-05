@@ -1,0 +1,130 @@
+body{
+background-color: rgb(37, 37, 37);
+color:white;
+margin: 0%;
+padding: 0%;
+}
+header{
+background-color:rgb(240, 30, 30);
+padding: 1%;
+
+}
+a[href]{
+    color:white;
+    text-decoration: none;
+}
+a[href]:hover{
+    color:blue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(252, 217, 229);
+}
+.fa-user{
+    margin-left: 2px;
+    color: rgb(240, 30, 30);
+}
+header ul{
+    display: flex;
+    justify-content:space-evenly ;
+    margin: 0% auto;
+}
+header li{
+    list-style-type: none;
+}
+#style_img{
+    transition-duration:1s;
+}
+
+div.behind{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-music,
+.fa-microphone-lines{
+    font-size: 70px;
+    margin:5%;
+    color:rgb(90, 40, 40);  
+}
+em{
+    color: rgb(173, 231, 57);
+}
+div.redbox{
+    height: 115px;
+    width: 200px;
+    margin-left: 2%;
+    margin-top: 20%;
+    border-radius: 5px;
+    background-color: rgb(240, 30, 30);
+    text-align: center;
+    padding: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color:rgb(173, 231, 57);
+    font-style:oblique;
+}
+.fa-gofore{
+    color: rgb(240, 30, 30);
+
+}
+div.list{
+    list-style-type:circle;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+color: rgb(240, 30, 30);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+animation: forwards;
+scale: 5px;
+}
+h5{
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    font-size: x-large;
+}
+div.bigimg{
+    position: relative;
+}
+nav{
+    position:absolute;
+
+}
+
+
+div.cool img{
+    height: 230px;
+}
+div.cool img:hover{
+    height:300px ;
+    transition: .3s;
+} 
+div.ache{
+    display: flex;
+    justify-content:space-evenly;
+     margin: 0% auto;
+}
+
+span{
+    color: rgb(228, 228, 3);
+    margin-top: -15%;
+    background-color: rgb(240, 30, 30);
+    padding: 3px;
+    
+}
+span:hover{
+    color: white;
+    font-size: 20px;
+}
+
+.fa-child,
+.fa-person,
+.fa-person-dress{
+    color: whitesmoke;
+}
+.fa-child:hover,
+.fa-person:hover,
+.fa-person-dress:hover{
+    font-size: 25px;
+}

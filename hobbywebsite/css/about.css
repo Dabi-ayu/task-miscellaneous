@@ -1,0 +1,151 @@
+body{
+    margin: 2%;
+    padding:0%;
+    margin-top:0%; 
+background-color: rgb(253, 253, 253);
+}
+header{
+    background-color: rgb(240, 30, 30);
+    padding: 1%;
+}
+a[href]{
+    color:white;
+    text-decoration: none;
+}
+a[href]:hover{
+    color:blue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(252, 217, 229);
+}
+header ul{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0% auto;
+}
+header li{
+    list-style-type: none;
+}
+ 
+button{
+    background-color: rgb(105, 12, 192);
+    color: white;
+    border-color: blueviolet;
+    padding: 7px;
+    border-radius:15px;
+}
+h3{
+    color: rgb(85, 26, 139);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+em{
+    background-color: rgb(252, 217, 229);
+    padding: 2px;
+}
+div.first_flex{
+    display: flex;
+    gap:40%;
+    margin:0% auto;
+}
+div.jon #jonpic{
+    height: 350px;
+    width: 250px;
+    border-radius: 5%;
+    position: relative;
+}
+div.circle{
+    background-color: aqua;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    border: 10px solid rgb(105, 12, 192);
+    top: 11%;
+    left: 52%;
+}
+strong{
+    font-style: italic;
+    background-color: rgb(252, 217, 229);
+    padding: 2px;
+}
+div.pink{
+    background-color:rgb(252, 174, 187);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    position:absolute;
+    top: 15%;
+    left: 53%;
+}
+div.blue{
+    background-color: aqua;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    border: 10px solid  rgb(105, 12, 192);
+    top: 11%;
+    left: 78%;
+}
+
+div.pin{
+    background-color:rgb(252, 174, 187);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    text-align: center;
+    top: 15%;
+    left: 78%;
+}
+div.round img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border:10px solid rgb(85, 26, 139);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div.diff{
+    display: flex;
+    
+}
+
+div.black{
+background-color: black;
+border-radius: 5px;
+color: white;
+height: 200px;
+ width: 200px;
+z-index: -1;
+margin:  auto 0;
+
+}
+div.violet{
+    background-color:rgb(85, 26, 139);
+    border-radius: 5px;
+    color: white;
+    height: 250px; width: 250px;
+    box-shadow:0px 0px 2px 20px rgb(85, 26, 139);
+    z-index: 100;
+
+
+}
+div.black img{
+    height: 60px;
+    float: right;
+    border-radius:50%;
+    margin-top: -10%;
+}
+p{
+    background-color: rgb(252, 217, 229);
+    padding: 5%;
+}
+div.violet img{
+    height: 60px;
+    float: right;
+    border-radius: 50%;
+    margin-top: -10%;
+}
+
