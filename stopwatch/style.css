@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+}
+
+
+.head{
+    color: blue;
+    margin-left: -50px;
+}
+.top{
+    margin-left: 300px;
+}
+.main-watch{
+    display: flex;
+    margin-left: 150px;
+    
+}
+.startbtn{
+    border:solid 1px blueviolet;
+    margin: 2%;
+    padding: 5px;
+    border-radius: 6px;
+    width: 60px;
+    text-align: center;
+    color:blue;
+    cursor: pointer;
+}
+.stopbtn{
+    border: solid 1px blueviolet;
+    margin: 2%;
+    padding: 5px;
+    border-radius: 6px;
+    width: 60px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+.resetbtn{
+    border: solid 1px blueviolet;
+    margin: 2%;
+    padding: 5px;
+    border-radius: 6px;
+    width: 60px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+
+}
+span{
+    color: rgb(2, 129, 2);
+}
+
+
+.startbtn:hover{
+background-color: blue;
+color: white;
+}
+
+.stopbtn:hover{
+    background-color: blue;
+color: white;
+
+}
+
+.resetbtn:hover{
+    background-color: blue;
+    color: white;
+}
