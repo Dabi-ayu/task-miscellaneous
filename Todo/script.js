@@ -5,7 +5,7 @@ document.querySelector(".add").onclick = function () {
     } else {
         document.querySelector(".todo-section").innerHTML += ` <section class = "flex-delete"><div class="task"><span id = "taskname">
         ${document.querySelector(".new-task-input").value}</span>
-        </div>  <button class = "delete">
+        </div> <button class = "delete">
         <i class = "fa fa-trash"></i>
         <button>
         </section>`;
